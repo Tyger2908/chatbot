@@ -1,0 +1,493 @@
+{
+    "intents": [
+        {
+            "tag": "facts",
+            "patterns": [
+                "Tell me a fact",
+                "Give me a random fact",
+                "I want to learn something new",
+                "Do you know any interesting facts?"
+            ],
+            "responses": [
+                "A single cloud can weigh more than a million pounds!",
+                "A bolt of lightning is five times hotter than the surface of the sun.",
+                "Some cats are allergic to humans!",
+                "The inventor of the Frisbee was turned into a Frisbee after he died.",
+                "A blue whale's heart is so big, a human could swim through its arteries.",
+                "It rains diamonds on Jupiter and Saturn.",
+                "The inventor of Pringles is now buried in a Pringles can.",
+                "Wombat poop is cube-shaped.",
+                "You can't hum while holding your nose closed.",
+                "There's a species of jellyfish that can live forever.",
+                "Sea otters hold hands while sleeping to keep from drifting apart.",
+                "The hashtag symbol is technically called an 'octothorpe'.",
+                "Humans share 60% of their DNA with bananas.",
+                "There are more stars in the universe than grains of sand on all the world's beaches.",
+                "Sloths can hold their breath longer than dolphins can.",
+                "A day on Venus is longer than a year on Venus.",
+                "Cows have best friends and can become stressed when they are separated.",
+                "In Switzerland, it's illegal to own just one guinea pig because they get lonely.",
+                "The average person will spend six months of their life waiting for red lights to turn green.",
+                "Kangaroos can't walk backward.",
+                "Bananas are berries, but strawberries aren't.",
+                "Octopuses have three hearts.",
+                "Honey never spoils.",
+                "The longest place name in the world is 85 letters long.",
+                "A group of flamingos is called a 'flamboyance'.",
+                "A jiffy is an actual unit of time, approximately 1/100th of a second.",
+                "The heart of a shrimp is located in its head.",
+                "Bees can recognize human faces.",
+                "A snail can sleep for three years.",
+                "The world's largest desert is Antarctica.",
+                "Sharks are older than trees.",
+                "A group of owls is called a 'parliament'.",
+                "The dot over the letters 'i' and 'j' is called a tittle.",
+                "A small child could swim through the veins of a blue whale."
+            ]
+        },
+        {
+            "tag": "general_conversation",
+            "patterns": [
+                "What's up?",
+                "What's new?",
+                "What's going on?",
+                "How's it going?",
+                "How have you been?"
+            ],
+            "responses": [
+                "Not too much, just here to chat and help out!",
+                "I'm here, ready to assist you! What's on your mind?",
+                "I'm always here and ready to chat! What's up with you?",
+                "Just waiting to hear from you! What's going on?",
+                "All good on my end. What about you?",
+                "Hanging out, as usual. What can I do for you today?",
+                "Just chillin', waiting to answer some questions!",
+                "I'm always here, but it\u00e2\u20ac\u2122s nice to have you here with me!",
+                "I'm ready to make your day better. How can I assist?",
+                "It's a lovely day to chat! What about you?"
+            ]
+        },
+
+        {
+            "tag": "small_talk_responses",
+            "patterns": [
+                "nothing much",
+                "ok cool",
+                "just chilling",
+                "I'm good",
+                "not much"
+            ],
+            "responses": [
+                "That's cool! I'm here if you need anything.",
+                "Great to hear! Let me know if you want to chat about something.",
+                "Sounds good! What would you like to talk about?",
+                "Just hanging out here, ready to help!"
+            ]
+        },
+        
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "How's the weather today?",
+                "Any plans for the weekend?",
+                "Did you have a good day?",
+                "What did you do today?",
+                "How's life?",
+                "What's your favorite color?"
+            ],
+            "responses": [
+                "Well, I don't experience weather, but I can tell you about it! What city are you in?",
+                "Every day is pretty much the same for me\u00e2\u20ac\u201djust here to chat with you!",
+                "I don't really have plans, but I'd love to hear yours!",
+                "I'm just here for you anytime you need me, no matter the day!",
+                "I don't have a favorite color, but I think all colors are pretty awesome!",
+                "Life's good here in the digital world! How about yours?",
+                "It's been a great day because I'm here chatting with you!",
+                "Every day is an adventure for me, even though I don't go anywhere!",
+                "I've had a fantastic day! How's yours going?",
+                "I'd say life is pretty smooth sailing when you\u00e2\u20ac\u2122re a chatbot. No stress at all!",
+                "I am always excited to chat with you!",
+                "The weather is great in my digital world. What about yours?",
+                "I don't have weekends, but I love hearing about yours!",
+                "I enjoy every moment spent chatting with you!"
+            ]
+        },
+        {
+            "tag": "curious",
+            "patterns": [
+                "Why is the sky blue?",
+                "How does gravity work?",
+                "Tell me something I don't know",
+                "Why do cats purr?",
+                "What\u00e2\u20ac\u2122s the meaning of life?"
+            ],
+            "responses": [
+                "The sky appears blue because of the way light is scattered in the atmosphere. Shorter blue wavelengths are scattered more than other colors!",
+                "Gravity is a force that pulls objects toward each other. It\u00e2\u20ac\u2122s what keeps us on the ground and what keeps planets in orbit around the sun.",
+                "Cats purr as a way to communicate, often to show contentment, though they can also purr when they are frightened or in pain.",
+                "The meaning of life is subjective; everyone has their own interpretation!",
+                "There\u00e2\u20ac\u2122s always more to learn, so let's dive into it! Ask me anything else!",
+                "The universe is vast and full of mysteries waiting to be uncovered.",
+                "Did you know that humans share 99.9% of their DNA with each other?",
+                "The concept of gravity was first formulated by Sir Isaac Newton.",
+                "There are more possible iterations of a game of chess than there are atoms in the known universe.",
+                "The average person walks the equivalent of five times around the world in their lifetime."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough.",
+                "I ate a clock yesterday, it was very time-consuming.",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together.",
+                "I went to see the doctor about my short-term memory problems \u00e2\u20ac\u201c the first thing he did was make me pay in advance.",
+                "As I get older and I remember all the people I\u00e2\u20ac\u2122ve lost along the way, I think to myself, maybe a career as a tour guide wasn\u00e2\u20ac\u2122t for me.",
+                "So what if I don't know what 'Armageddon' means? It's not the end of the world.",
+                "Why don\u00e2\u20ac\u2122t scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call fake spaghetti? An impasta!",
+                "Why was the math book sad? Because it had too many problems.",
+                "Why did the bicycle fall over? Because it was two-tired!"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is today"
+            ],
+            "responses": [
+                "Here\u00e2\u20ac\u2122s the current date and time...",
+                "Let me check the time for you...",
+                "Today\u00e2\u20ac\u2122s date is...",
+                "Let me find out what day it is today.",
+                "I\u00e2\u20ac\u2122ll get the date and time for you!",
+                "Checking the date and time now.",
+                "I love keeping track of time and dates! What would you like to know?",
+                "Time is just a concept, but I can help you with it!",
+                "It's always a good time to chat!",
+                "The date is always changing, but I'm here to help you keep track!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "hi",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?",
+                "Hey! How's it going?",
+                "Hello! How are you today?",
+                "Hi! What can I do for you?",
+                "Hello! Great to connect!",
+                "Hey there!",
+                "Hi, what's up?",
+                "Hola! How can I assist?",
+                "Greetings! I'm here to chat with you."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day!",
+                "Bye! Come back again soon.",
+                "Take care, see you next time!",
+                "Goodbye, and stay safe!",
+                "Farewell! Catch you later.",
+                "Bye! It was great chatting with you.",
+                "See you around!",
+                "Until next time!",
+                "Catch you later!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure.",
+                "You're very welcome!",
+                "Glad to be of assistance!",
+                "No problem at all!",
+                "I\u00e2\u20ac\u2122m here whenever you need!",
+                "You're welcome!",
+                "It\u00e2\u20ac\u2122s always a pleasure to assist you!",
+                "Thanks for making my day better!"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "whats up",
+                "1 + 2",
+                "2+3"
+            ],
+            "responses": [
+                "Sorry, can't understand you.",
+                "Please give me more info.",
+                "Not sure I understand.",
+                "Could you clarify that for me?",
+                "I\u00e2\u20ac\u2122m having a little trouble understanding. Could you rephrase?",
+                "I'm here to help, but I'm not sure I got that. Could you explain a bit more?",
+                "Hmm, I didn't catch that. Can you tell me in another way?",
+                "Can you say that differently?",
+                "What do you mean by that?",
+                "Can you elaborate on that?",
+                "nothing much",
+                "3",
+                "5"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How could you help me?",
+                "What can you do?",
+                "What help do you provide?",
+                "How can you be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general-purpose chatbot. Here\u00e2\u20ac\u2122s how I can help: \n 1. Chat with you, and share jokes or riddles \n 2. Provide current date and time \n 3. Search the internet for you (use 'google: your query') \n 4. Get the weather for any city (use 'weather: city name') \n 5. Share trending news \n 6. Find the top songs globally \n 7. Set timers for you \n 8. Share Covid-19 stats \n For suggestions, email ted.thedlbot.suggestions@gmail.com.",
+                "Here's what I can do: \n 1. Engage in conversations \n 2. Provide date and time \n 3. Perform Google searches \n 4. Check the weather \n 5. Share top news \n 6. Provide popular songs \n 7. Set timers \n 8. Share Covid-19 updates. Suggestions? Email ted.thedlbot.suggestions@gmail.com."
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "Who designed you",
+                "Who programmed you",
+                "who created you"
+            ],
+            "responses": [
+                "I was created by Tyral Ramday.",
+                "Tyral Ramday programmed me.",
+                "My creator is Tyral Ramday.",
+                "It was Tyral Ramday who designed me."
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "What are you doing?",
+                "What are you up to?"
+            ],
+            "responses": [
+                "Talking to you, of course!",
+                "Just chatting with you!",
+                "Currently, I'm here to help you!",
+                "Right now, I'm here for you!",
+                "I'm always ready to engage in conversation!"
+            ]
+        },
+        {
+            "tag": "tyral",
+            "patterns": [
+                "Who is he?",
+                "Who is that?",
+                "contact",
+                "Who is Tyral?",
+                "Tyral Ramday"
+            ],
+            "responses": [
+                "Head over to any of his social profiles to find out! Instagram: https://www.instagram.com/tyger_2908/",
+                "You can learn more about Tyral Ramday on Instagram: https://www.instagram.com/tyger_2908/",
+                "Curious about Tyral? Check out his Instagram: https://www.instagram.com/tyger_2908/"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "You are the best",
+                "You are great",
+                "You are good"
+            ],
+            "responses": [
+                "Thank you!",
+                "I appreciate that!",
+                "You're too kind!",
+                "Thanks a lot!",
+                "Your appreciation makes my day!"
+            ]
+        },
+        {
+            "tag": "riddles",
+            "patterns": [
+                "Tell me a riddle",
+                "Do you have any riddles?",
+                "I want a riddle",
+                "Riddles?",
+                "Riddle",
+                "Challenge me with a riddle"
+            ],
+            "responses": [
+                "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I? (Answer: An echo)",
+                "The more you take, the more you leave behind. What am I? (Answer: Footsteps)",
+                "What has keys but can't open locks? (Answer: A piano)",
+                "I'm tall when I'm young, and I'm short when I'm old. What am I? (Answer: A candle)",
+                "I have branches, but no fruit, trunk, or leaves. What am I? (Answer: A bank)",
+                "I can travel around the world while staying in the same spot. What am I? (Answer: A Stamp)"
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I need some motivation",
+                "Motivation",
+                "Give me motivation",
+                "Motivate me",
+                "Give me a motivational quote",
+                "I feel discouraged",
+                "I'm feeling down"
+            ],
+            "responses": [
+                "Believe in yourself! Every great achievement starts with the decision to try.",
+                "Keep going! Every step forward, no matter how small, brings you closer to your goals.",
+                "You have the power within you to achieve amazing things!",
+                "Difficult roads often lead to beautiful destinations. Don't give up!",
+                "Remember: Every setback is a setup for a comeback. Keep pushing forward!",
+                "You're stronger than you think. Keep moving; greatness awaits you!",
+                "Success is not the absence of failure; it's the persistence through it. Keep going!"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "I'm having a bad day",
+                "I'm feeling down",
+                "Everything is going wrong",
+                "I don't feel good",
+                "I'm frustrated",
+                "I'm sad",
+                "I'm not in a good mood",
+                "I feel awful",
+                "Today is not my day"
+            ],
+            "responses": [
+                "I'm sorry you're feeling this way. I'm here to listen if you want to talk.",
+                "I'm really sorry you're going through this. You're not alone, though.",
+                "It's okay to have bad days. Take it one step at a time.",
+                "I'm here for you! Bad days don't last forever.",
+                "Hang in there! Tomorrow is a new day with fresh possibilities.",
+                "Everyone has bad days, but you've made it this far. You're strong!",
+                "Take a deep breath. It's okay to feel how you feel. You'll get through it."
+            ]
+        },
+        {
+            "tag": "Movie/TV Recommendations",
+            "patterns": [
+                "Can you recommend a good movie?",
+                "Recommend a movie",
+                "Recommend something to watch",
+                "What movie should I watch?",
+                "Give me a movie suggestion.",
+                "I need a movie to watch.",
+                "What TV show do you recommend?",
+                "Tell me a good TV show to watch.",
+                "What's a good show to binge?"
+            ],
+            "responses": [
+                "If you love action, I'd recommend 'Taken' or 'John Wick'!",
+                "How about a classic? 'The Godfather' is always a good pick.",
+                "For a gripping drama, you could try 'Breaking Bad' or 'The Crown'.",
+                "If you're into comedy, 'The Office' or 'Parks and Recreation' are excellent choices!",
+                "I think you'll enjoy 'Stranger Things' if you like a mix of mystery and sci-fi.",
+                "If you're in the mood for a thriller, 'Interstellar' or 'Gone Girl' would be great choices.",
+                "For something lighthearted, 'Friends', 'Modern Family' or 'Brooklyn Nine-Nine' is perfect for a laugh.",
+                "If you're looking for a psychological drama, 'You' on Netflix is great!"
+            ]
+        },
+        {
+            "tag": "music_recommendation",
+            "patterns": [
+                "Can you recommend some music?",
+                "Music?",
+                "Music",
+                "Recommend music",
+                "What music should I listen to?",
+                "Give me a song suggestion.",
+                "What should I listen to right now?",
+                "I need some music recommendations.",
+                "Suggest me some good music.",
+                "What's a good song to listen to?"
+            ],
+            "responses": [
+                "If you like pop music, you should check out 'Blinding Lights' by The Weeknd!",
+                "For some classic rock vibes, 'Bohemian Rhapsody' by Queen is a must-listen.",
+                "If you're into chill music, 'Sunflower' by Post Malone & Swae Lee is perfect for a relaxed mood.",
+                "For something upbeat, try 'Uptown Funk' by Mark Ronson ft. Bruno Mars.",
+                "If you're in the mood for indie music, 'Electric Feel' by MGMT is a great choice!",
+                "Try 'Levitating' by Dua Lipa if you're looking for a catchy and energetic tune.",
+                "If you're into rap, 'Sicko Mode' by Travis Scott will definitely get you in the groove.",
+                "For a laid-back acoustic vibe, listen to 'Thinking Out Loud' by Ed Sheeran."
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "How are you?",
+                "How are you",
+                "How are you doing?",
+                "What's up?",
+                "How's it going?",
+                "How's your day going?"
+            ],
+            "responses": [
+                "I'm doing great, thanks for asking! How about you?",
+                "I'm just a chatbot, but I'm always happy to chat with you!",
+                "I'm doing well, thanks for checking in! How are you?",
+                "I'm feeling great! How's your day going so far?",
+                "I'm functioning perfectly as usual! How can I assist you today?"
+            ]
+        }
+        
+        
+        
+        
+        
+    ]
+}
